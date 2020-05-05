@@ -1,0 +1,20 @@
+.content {
+    width: 100vw;
+    height: 1000vh;
+    background-color: rgb(41, 52, 77);
+    display: flex;
+}
+
+header {
+    /* margin-top: 8vh; */
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(../assets/img/banner1.jpg); */
+    background-image: url(../assets/img/banner2.jpeg);
+    background-size: cover;
+}
