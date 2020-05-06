@@ -8,18 +8,22 @@ const Section1 = _ => {
                 <h2>Title Section 1</h2>
             </div>
             <div className="section-body">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Esse excepturi commodi sed perspiciatis, voluptatum
-                    doloribus porro odio eos recusandae animi? Aliquam obcaecati
-                    tempora enim ipsa repellendus magni nulla nihil architecto?
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Esse excepturi commodi sed perspiciatis, voluptatum
-                    doloribus porro odio eos recusandae animi? Aliquam obcaecati
-                    tempora enim ipsa repellendus magni nulla nihil architecto?
-                </p>
+                <div className="section-wrapper">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Esse excepturi commodi sed perspiciatis, voluptatum
+                        doloribus porro odio eos recusandae animi? Aliquam
+                        obcaecati tempora enim ipsa repellendus magni nulla
+                        nihil architecto?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Esse excepturi commodi sed perspiciatis, voluptatum
+                        doloribus porro odio eos recusandae animi? Aliquam
+                        obcaecati tempora enim ipsa repellendus magni nulla
+                        nihil architecto?
+                    </p>
+                </div>
             </div>
         </section>
     );

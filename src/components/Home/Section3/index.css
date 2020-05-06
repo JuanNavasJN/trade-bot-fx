@@ -13,19 +13,23 @@
 }
 
 .section-3 .section-body {
-    background-color: blueviolet;
-    display: flex;
-    padding: 5%;
     color: #fff;
     min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    background-color: rgb(23, 25, 81);
     background-image: url(../../../assets/img/p3.jpeg);
 
-    /* Parallax */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.section-3 .section-body .section-wrapper {
+    background-color: rgba(0, 0, 0, 0.407);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5%;
 }

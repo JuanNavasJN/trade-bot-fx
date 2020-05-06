@@ -13,19 +13,31 @@
 }
 
 .section-2 .section-body {
-    background-color: blueviolet;
-    display: flex;
-    padding: 5%;
     color: #fff;
     min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    background-color: rgb(23, 25, 81);
     background-image: url(../../../assets/img/p2.jpeg);
 
-    /* Parallax */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.section-2 .section-body .section-wrapper {
+    background-color: rgba(94, 94, 94, 0.194);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.section-2 .section-body .section-wrapper .card {
+    background-color: rgb(59, 89, 145);
+    height: 50vh;
+    width: 25vw;
+    margin: 10vw;
+    border-radius: 10px;
 }
