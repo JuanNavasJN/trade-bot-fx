@@ -1,0 +1,40 @@
+header {
+    /* margin-top: 8vh; */
+    background-color: rgb(19, 19, 46);
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(../../../assets/img/banner1.jpg); */
+    background-image: url(../../../assets/img/banner2.jpeg);
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 62px;
+    color: rgb(222, 222, 222);
+}
+
+header .cards-container {
+    /* background-color: rgb(88, 88, 157); */
+    width: 90%;
+    margin-top: 25vh;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .cards-container .card {
+    background-color: rgba(118, 118, 118, 0.87);
+    width: 30%;
+    height: 100%;
+    margin: 0 4%;
+    border-radius: 10px;
+}
+
+header .cards-container .card.center {
+    margin-top: -20vh;
+}
