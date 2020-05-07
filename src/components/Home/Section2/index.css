@@ -1,85 +1,85 @@
 .section-2 .title-container {
-  background-color: rgb(0, 0, 0);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 50vh;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
 }
 
 .section-2 .title-container h2 {
-  font-size: 42px;
-  font-weight: 400;
+    font-size: 42px;
+    font-weight: 400;
 }
 
 .section-2 .section-body {
-  color: #fff;
-  min-height: 100vh;
-  background-color: rgb(23, 25, 81);
-  background-image: url(../../../assets/img/p2.jpeg);
+    color: #fff;
+    min-height: 100vh;
+    background-color: rgb(23, 25, 81);
+    background-image: url(../../../assets/img/p2.jpeg);
 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section-2 .section-body .section-wrapper {
-  background-color: rgba(94, 94, 94, 0.194);
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 5%;
+    background-color: rgba(0, 0, 0, 0.548);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5%;
 }
 
 .section-2 .section-body .section-wrapper .card {
-  background-color: rgb(59, 89, 145);
-  height: 50vh;
-  width: 25vw;
-  margin: 10vw;
-  border-radius: 10px;
+    background-color: rgb(59, 89, 145);
+    height: 50vh;
+    width: 25vw;
+    margin: 10vw;
+    border-radius: 10px;
 }
 
 .flippy-front {
-  background-color: rgb(59, 89, 145) !important;
-  height: 70vh !important;
-  width: 30vw !important;
-  margin: 7vw !important;
-  border-radius: 10px !important;
-  padding: 2em !important;
-  z-index: 99;
+    background-color: rgb(59, 89, 145) !important;
+    height: 70vh !important;
+    width: 30vw !important;
+    margin: 7vw !important;
+    border-radius: 10px !important;
+    padding: 2em !important;
+    z-index: 99;
 }
 
 .title-card {
-  text-align: center;
-  font-size: 48px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .text-card {
-  text-align: center;
-  font-size: 20px;
+    text-align: center;
+    font-size: 20px;
 }
 .text-card-back {
-  color: black;
-  font-size: 18px;
-  text-align: justify;
+    color: black;
+    font-size: 18px;
+    text-align: justify;
 }
 
 .img-card {
-  width: 250px;
-  height: auto;
-  padding-left: 20px;
+    width: 250px;
+    height: auto;
+    padding-left: 20px;
 }
 
 .flippy-back {
-  background-color: #eee !important;
-  height: 70vh !important;
-  width: 30vw !important;
-  margin: 7vw !important;
-  border-radius: 10px !important;
-  top: -118px !important;
-  padding: 2em !important;
+    background-color: #eee !important;
+    height: 70vh !important;
+    width: 30vw !important;
+    margin: 7vw !important;
+    border-radius: 10px !important;
+    top: -118px !important;
+    padding: 2em !important;
 }

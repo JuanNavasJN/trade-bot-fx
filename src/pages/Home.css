@@ -1,6 +1,8 @@
 .content {
     width: 100vw;
-    height: 800vh;
+    /* height: 800vh; */
     background-color: rgb(41, 52, 77);
     /* display: flex; */
+    /* margin-bottom: 40vh; */
+    /* z-index: 20; */
 }
