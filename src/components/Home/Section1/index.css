@@ -41,6 +41,12 @@
 .text-content {
   font-size: 25px;
   text-align: justify;
+  background-color: rgba(0, 0, 0, 0.596);
+  padding: 5% 5% 5% 5%;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 .img-card {
