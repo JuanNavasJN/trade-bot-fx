@@ -1,29 +1,45 @@
-import React from 'react';
+import React from "react";
+import Flippy, { FrontSide, BackSide } from "react-flippy";
+import "./index.css";
 
-import './index.css';
+const Section1 = (_) => {
+  return (
+    <section className="section-2">
+      <div className="title-container">
+        <h2>SECURE YOUR COPY of PandaPips NOW</h2>
+      </div>
+      <div className="section-body">
+        <div className="section-wrapper">
+          <Flippy
+            flipOnHover={false} // default false
+            flipOnClick={true} // default false
+            flipDirection="horizontal"
+            className="card"
+          >
+            <FrontSide>RICK</FrontSide>
+            <BackSide>ROCKS</BackSide>
+          </Flippy>
 
-const Section1 = _ => {
-    return (
-        <section className="section-2">
-            <div className="title-container">
-                <h2>Title Section 2</h2>
-            </div>
-            <div className="section-body">
-                <div className="section-wrapper">
-                    <div className="card"></div>
-
-                    <div className="card"></div>
-                    {/* <p>
+          <Flippy
+            flipOnHover={false} // default false
+            flipOnClick={true} // default false
+            flipDirection="horizontal"
+            className="card"
+          >
+            <FrontSide>RICK</FrontSide>
+            <BackSide>ROCKS</BackSide>
+          </Flippy>
+          {/* <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Esse excepturi commodi sed perspiciatis, voluptatum
                         doloribus porro odio eos recusandae animi? Aliquam
                         obcaecati tempora enim ipsa repellendus magni nulla
                         nihil architecto?
                     </p> */}
-                </div>
-            </div>
-        </section>
-    );
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default Section1;
