@@ -2,72 +2,73 @@
 #0E377F */
 /* 200,300,400,700 */
 .navbar {
-  position: fixed;
+    position: fixed;
 
-  /* background-image: linear-gradient(to right, #0e377f, #081126); */
-  width: 88%;
-  display: flex;
-  justify-content: space-between;
-  color: #fff;
-  transition: 0.5s;
-  font-weight: 400;
-  font-size: 1.1em;
-  z-index: 15;
-  min-height: 5vh;
+    /* background-image: linear-gradient(to right, #0e377f, #081126); */
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    transition: 0.5s;
+    font-weight: 400;
+    font-size: 1.1em;
+    z-index: 15;
+    min-height: 5vh;
 }
 
 .logo {
-  margin: 5px 20px 0px 20px;
+    margin: 5px 20px 0px 20px;
 }
 
 .logo img {
-  width: 100px;
+    width: 100px;
 }
 
 .links {
-  display: flex;
+    display: flex;
 }
 
 .link {
-  margin: 0 12px;
-  padding: 7px;
+    margin: 0 12px;
+    padding: 7px;
 }
 
 .link:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .login {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .buynow {
-  /* background-color: #0e377f; */
-  border-radius: 20px;
-  color: #fff;
-  font-weight: bold;
+    /* background-color: #0e377f; */
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
 }
 
 .vl {
-  border-left: 2px solid rgba(255, 255, 255, 0.623);
-  height: 22px;
-  margin-top: 8px;
+    border-left: 2px solid rgba(255, 255, 255, 0.623);
+    height: 22px;
+    margin-top: 8px;
 }
 
 .top-button {
-  position: fixed;
-  width: 7vh;
-  height: auto;
-  bottom: 15px;
-  right: 15px;
+    position: fixed;
+    width: 7vh;
+    height: auto;
+    bottom: 15px;
+    right: 15px;
 }
 
 .top-button:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 @media (max-width: 1020px) {
-  .links {
-    display: none;
-  }
+    .links {
+        display: none;
+    }
 }
