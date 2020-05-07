@@ -1,24 +1,24 @@
-import React from 'react';
-import NavBar from '../components/NavBar';
-import Header from '../components/Home/Header';
-import Section1 from '../components/Home/Section1';
-import Section2 from '../components/Home/Section2';
-import Section3 from '../components/Home/Section3';
+import React from "react";
+import NavBar from "../components/NavBar";
+import Header from "../components/Home/Header";
+import Section1 from "../components/Home/Section1";
+import Section2 from "../components/Home/Section2";
+import Section3 from "../components/Home/Section3";
 
-import './Home.css';
+import "./Home.css";
 
-const Home = _ => {
-    return (
-        <div>
-            <NavBar />
-            <div className="content">
-                <Header />
-                <Section1 />
-                <Section2 />
-                <Section3 />
-            </div>
-        </div>
-    );
+const Home = (_) => {
+  return (
+    <div>
+      <NavBar />
+      <div className="content">
+        <Header />
+        <Section1 />
+        <Section2 />
+        <Section3 />
+      </div>
+    </div>
+  );
 };
 
 export default Home;
