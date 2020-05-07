@@ -58,18 +58,6 @@ const Section1 = (_) => {
               </p>
             </div>
           </Swiper>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-            excepturi commodi sed perspiciatis, voluptatum doloribus porro odio
-            eos recusandae animi? Aliquam obcaecati tempora enim ipsa
-            repellendus magni nulla nihil architecto?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-            excepturi commodi sed perspiciatis, voluptatum doloribus porro odio
-            eos recusandae animi? Aliquam obcaecati tempora enim ipsa
-            repellendus magni nulla nihil architecto?
-          </p>
         </div>
       </div>
     </section>
