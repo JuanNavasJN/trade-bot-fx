@@ -1,0 +1,31 @@
+.contact-us {
+    background-color: #fff;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+    padding-bottom: 5%;
+    padding-top: 8%;
+}
+
+.contact-us div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us .form-container form {
+    padding: 1%;
+    /* background-color: rgba(220, 20, 60, 0.288); */
+}
+
+.contact-us .form-container form input {
+    display: block;
+    margin: 5% 0;
+    border: 0;
+    border-bottom: 2px solid rgb(11, 38, 87);
+    width: 50vw;
+    font-size: 22px;
+    outline: 0;
+}
